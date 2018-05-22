@@ -1,0 +1,22 @@
+#配置redis monogdb 数据源
+spring:
+  redis:
+    host: 192.168.1.127
+    database: 2
+#  data:
+#    mongodb:
+#      uri: 192.168.1.127
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/common_demo?characterEncoding=UTF8&serverTimezone=GMT%2B8&useSSL=false
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update  #配置自动建表：updata:没有表新建，有表更新操作,控制台显示建表语句
+    show-sql: true
+
+
+server:
+  port: 8099
+
