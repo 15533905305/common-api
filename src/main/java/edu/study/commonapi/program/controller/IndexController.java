@@ -12,6 +12,6 @@ public class IndexController {
 
     @RequestMapping(value = "/")
     public String index(){
-        return  "success";
+        return "redirect:swagger-ui.html";
     }
 }

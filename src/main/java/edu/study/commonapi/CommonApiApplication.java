@@ -3,7 +3,6 @@ package edu.study.commonapi;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-//@EntityScan(basePackages = {"edu.study.commonapi.program.bean"})
 @SpringBootApplication
 public class CommonApiApplication {
 
